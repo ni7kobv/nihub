@@ -1,0 +1,6 @@
+               game.StarterGui:SetCore("SendNotification", {
+        Title = 'Discord';
+        Text = 'discord link copied in your keyboard!';
+        Duration = 1;
+       })
+       setclipboard('https://discord.gg/ah7nGsWCbU')
