@@ -1,0 +1,5 @@
+local args = {
+    [1] = "swingBlade"
+}
+
+game:GetService("Players").LocalPlayer.saberEvent:FireServer(unpack(args))
