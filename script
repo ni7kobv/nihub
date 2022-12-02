@@ -8,8 +8,8 @@ local MainSection = Main:NewSection("Main")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/Daptoper%20Game"))()
     end)
 
-    MainSection:NewButton("Every Second You Get +1 Jump Powers", "Every", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/Every%20Second%20You%20Get%20%2B1%20Jump%20Power"))()
+    MainSection:NewButton("Every Second You Get +1 Jump Power", "Every", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/Every%20Second%20You%20Get%20%2B1%20Jump%20Powere"))()
     end)
 
     MainSection:NewButton("Lucky Block", "Block", function()
