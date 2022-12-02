@@ -4,4 +4,3 @@
         Duration = 1;
        })
        setclipboard('https://discord.gg/ah7nGsWCbU')
-    end)
