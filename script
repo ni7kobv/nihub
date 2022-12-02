@@ -15,3 +15,15 @@ local MainSection = Main:NewSection("Main")
     MainSection:NewButton("Lucky Block", "Block", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/lucky%20block"))()
     end)
+
+    local Other = Window:NewTab("Misc")
+    local OtherSection = Other:NewSection("Misc")
+
+    OtherSection:NewButton("discord link", "copy discord link", function()
+               game.StarterGui:SetCore("SendNotification", {
+        Title = 'Discord';
+        Text = 'discord link copied in your keyboard!';
+        Duration = 1;
+       })
+       setclipboard('https://discord.gg/ah7nGsWCbU')
+    end)
