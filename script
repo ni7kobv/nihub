@@ -5,15 +5,15 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
     MainSection:NewButton("Daptoper Game", "Daptoper!", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/Daptoper%20Game"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
     end)
 
     MainSection:NewButton("Every Second You Get +1 Jump Power", "Every", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/Every%20Second%20You%20Get%20%2B1%20Jump%20Powere"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Every%20Second%20You%20Get%20%2B1%20Jump%20Powere"))()
     end)
 
     MainSection:NewButton("Lucky Block", "Block", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/lucky%20block"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/lucky%20block"))()
     end)
 
     local Other = Window:NewTab("Misc")
