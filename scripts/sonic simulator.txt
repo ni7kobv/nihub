@@ -1,6 +1,0 @@
---key changes ONLY IN WEEKEND , SATURDAY & SUNDAY
-_G.key = "impoor" 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
-
-
---also key for the manual loader is "      impoor     "
