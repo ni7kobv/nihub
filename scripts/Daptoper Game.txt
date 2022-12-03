@@ -1,0 +1,46 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("nihub", "DarkTheme")
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("take p90", "auto take p90 for you", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(27.3839722, 3.84506154, 29.5432339, 1.43023208e-05, 7.90271599e-08, -1, -4.56259848e-08, 1, 7.90265062e-08, 1, 4.5624855e-08, 1.43023208e-05)	
+	wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.6500282, 3.19805026, 16.401823, 1, -2.06850381e-09, -9.69124594e-05, 2.05797868e-09, 1, -1.08604034e-07, 9.69124594e-05, 1.08603835e-07, 1)
+	wait(100)
+    end)
+
+
+    MainSection:NewButton("ctrl+click tp", "teleport for you", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/ctrl%20click%20tp"))()
+    end)
+
+
+    local Other = Window:NewTab("Teleport")
+    local OtherSection = Other:NewSection("Teleport")
+
+    OtherSection:NewButton("teleport to room", "teleport to room", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.6500282, 3.19805026, 16.401823, 1, -2.06850381e-09, -9.69124594e-05, 2.05797868e-09, 1, -1.08604034e-07, 9.69124594e-05, 1.08603835e-07, 1)
+    end)
+    
+    OtherSection:NewButton("teleport to out", "teleport to out", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(38.6561584, 2.9980247, -26.0457592, -0.998133421, 7.61266516e-09, 0.0610710457, 6.96597713e-09, 1, -1.08020144e-08, -0.0610710457, -1.03564322e-08, -0.998133421)
+    end)
+
+    OtherSection:NewButton("teleport to VIP ROOM", "teleport to VIP ROOM", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20.8735523, 3.09802485, 38.7349014, -0.00874834787, -6.18018206e-08, -0.999961734, -4.36453291e-08, 1, -6.14223481e-08, 0.999961734, 4.3106315e-08, -0.00874834787)
+    end)
+
+    local Other = Window:NewTab("Misc")
+    local OtherSection = Other:NewSection("Misc")
+
+    OtherSection:NewButton("discord link", "copy discord link", function()
+               game.StarterGui:SetCore("SendNotification", {
+        Title = 'Discord';
+        Text = 'discord link copied in your keyboard!';
+        Duration = 1;
+       })
+       setclipboard('https://discord.gg/ah7nGsWCbU')
+    end)
+

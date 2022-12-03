@@ -1,0 +1,35 @@
+-- [[ Settings ]] --
+
+getgenv().prefix = '/'
+getgenv().controller = 244950495
+
+getgenv().alts = {
+    Alt1 = 2762377672,
+    Alt2 = 3260104312,
+    Alt3 = 3356123484,
+    Alt4 = 3356126824,
+    Alt5 = 3423780901,
+    Alt6 = 3356130139,
+    Alt7 = 3356132287,
+    Alt8 = 275429438,
+    Alt9 = 248924297,
+    Alt10 = 3431677576,
+}
+
+getgenv().commands = {
+    ['COSMO_DropStart'] = "drop",
+    ['COSMO_DropStop'] = "stop",
+    ['COSMO_SetupAlts'] = "setup", 
+    ['COSMO_CrashCMD'] = "crashswag", 
+    ['COSMO_ShowOrHideWallet'] = "wallet", 
+    ['COSMO_SetTheFPSCap'] = 'fps', 
+    ['COSMO_AutoDestroyCash'] = 'loopdestroy', 
+}
+getgenv().locations = {
+    ['COSMO_InfrontBank'] = "bank", 
+    ['COSMO_AdminBase'] = "admin", 
+}
+
+-- [[ Launcher ]] --
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/free.lua", true))()

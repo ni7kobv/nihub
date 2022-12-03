@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Basbousa1/Basbousa-Hub/main/0.6.lua"))()

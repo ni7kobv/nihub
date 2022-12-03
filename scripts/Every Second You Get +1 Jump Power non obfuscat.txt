@@ -1,0 +1,81 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("nihub", "DarkTheme")
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("Auto Win (reset for stop auto win)", "auto win for you!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/auto%20win"))()
+    end)
+    
+    MainSection:NewButton("Auto Win ( not spam )", "auto win for you!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/auto%20win%20ns"))()
+    end)
+
+    MainSection:NewButton("Auto Rebirth", "auto Rebirth", function()
+while wait() do
+        game:GetService("ReplicatedStorage").RebirthEvent:FireServer()
+wait(1)
+end
+end)
+
+    MainSection:NewButton("ctrl+click tp", "teleport for you", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/ctrl%20click%20tp"))()
+    end)
+
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+
+    PlayerSection:NewSlider("WalkSpeed", "SPEED!!", 500, 16, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    PlayerSection:NewSlider("JumpPower", "JUMP HIGH!!", 500, 50, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+    PlayerSection:NewButton("Reset walkspeed and jumppower", "Resets to all defaults", function()
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Reset", Text = "WalkSpeed and JumpPower reseted !"})
+    end)
+
+    local Other = Window:NewTab("Teleport")
+    local OtherSection = Other:NewSection("Teleport")
+
+    OtherSection:NewButton("teleport to earth", "teleporte to earth for you!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/earth%20t"))()
+    end)
+
+    OtherSection:NewButton("teleport to moon", "teleporte to moon for you!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/moon"))()
+    end)
+
+    OtherSection:NewButton("teleport to lava", "teleporte to lava for you!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/lava"))()
+    end)
+
+    OtherSection:NewButton("teleport to ice", "teleporte to ice for you!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/ice%20t"))()
+    end)
+
+    OtherSection:NewButton("teleport to flower", "teleporte to flower for you!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/flower"))()
+    end)
+
+    OtherSection:NewButton("teleport to snow", "teleporte to snow for you!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/snow"))()
+    end)
+
+    local Other = Window:NewTab("Misc")
+    local OtherSection = Other:NewSection("Misc")
+
+    OtherSection:NewButton("discord link", "copy discord link", function()
+               game.StarterGui:SetCore("SendNotification", {
+        Title = 'Discord';
+        Text = 'discord link copied in your keyboard!';
+        Duration = 1;
+       })
+       setclipboard('https://discord.gg/ah7nGsWCbU')
+    end)
+

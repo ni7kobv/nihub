@@ -1,0 +1,62 @@
+if game.PlaceId == 5490351219 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "nihub", HidePremium = false, IntroText = "nihub",  SaveConfig = true, ConfigFolder = "nihub"})
+
+_G.autoTap = true
+
+function autoTap()
+	while _G.autoTap == true do
+	      game:GetService("ReplicatedStorage").Aero.AeroRemoteServices.ClickService.Click
+	end
+	end
+
+local FarmTap = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+FarmTap:AddToggle({
+	Name = "Auto Tap",
+	Default = false,
+	Callback = function(Value)
+		_G.autoTap == Value
+		autoTap()
+	end
+})
+
+end
+OrionLib.Init()
+
+
+
+
+
+
+
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("nihub", "DarkTheme")
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+_G.autoTap = true
+
+function autoTap()
+
+    MainSection:NewButton("auto win (reset for stop auto win)", "auto win for you!", function()
+while _G.autoTap == true do
+
+local args = {
+    [1] = 1
+}
+
+game:GetService("ReplicatedStorage").Aero.AeroRemoteServices.ClickService.Click:FireServer(unpack(args))
+end
+
+end)
+
+
+

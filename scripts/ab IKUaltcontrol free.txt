@@ -1,0 +1,15 @@
+getgenv().Host = 'DaisyClark71'
+getgenv().FPS = 5
+getgenv().Alts = {
+ Alt1 = 2762377672,
+ Alt2 = 3260104312,
+ Alt3 = 3356123484,
+ Alt4 = 3356126824,
+ Alt5 = 3423780901,
+ Alt6 = 3356130139,
+ Alt7 = 3356132287,
+ Alt8 = 275429438,
+ Alt9 = 248924297,
+ Alt10 = 3431677576,
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/AltControlV1', true))()

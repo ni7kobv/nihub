@@ -1,0 +1,42 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("nihub", "DarkTheme")
+
+local Other = Window:NewTab("Hunter")
+local OtherSection = Other:NewSection("Hunter")
+
+    OtherSection:NewButton("Elite Hunter ", "Hunter", function()
+        local args = {
+    [1] = "EliteHunter"
+}
+
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+
+    end)
+
+    OtherSection:NewButton("Player Hunter ", "Hunter", function()
+        local args = {
+    [1] = "PlayerHunter"
+}
+
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+
+    end)
+
+local Other = Window:NewTab("DevilFruits")
+local OtherSection = Other:NewSection("Fruits")
+
+    OtherSection:NewButton("Buy Random DevilFruit ", "DevilFruit", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/script/main/random%20fruit"))()
+    end)
+
+    local Other = Window:NewTab("Misc")
+    local OtherSection = Other:NewSection("Misc")
+
+    OtherSection:NewButton("discord link", "copy discord link", function()
+               game.StarterGui:SetCore("SendNotification", {
+        Title = 'Discord';
+        Text = 'discord link copied in your keyboard!';
+        Duration = 1;
+       })
+       setclipboard('https://discord.gg/ah7nGsWCbU')
+    end)
