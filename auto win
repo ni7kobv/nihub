@@ -15,5 +15,4 @@ wait(0.1)
 wait(0.1)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(380.439178, 8979.04688, -44.4125099, 0, 0, 1, -1, 0, 0, 0, -1, 0)
 wait(0.1)
-wait(12)
 end
