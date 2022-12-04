@@ -15,6 +15,10 @@ local MainSection = Main:NewSection("Choose game")
     MainSection:NewButton("Lucky Block", "Block", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/lucky%20block"))()
     end)
+    
+    MainSection:NewButton("Prison life", "Prsion", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Prison%20life"))()
+    end)
 
     local Other = Window:NewTab("Misc")
     local OtherSection = Other:NewSection("Misc")
