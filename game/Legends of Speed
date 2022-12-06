@@ -2119,7 +2119,7 @@ local MainSection = Main:NewSection("Teleport")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-835.946899, 14.974474, 123.419525, 0.199229926, 3.51698297e-08, 0.979952753, 9.6269325e-08, 1, -5.54614061e-08, -0.979952753, 1.05388963e-07, 0.199229926)
     end)
 
-    MainSection:NewButton("Auto Win Parkour Challenge", "teleport for you", function()
+    MainSection:NewButton("Auto Win (Tap Grass Course and enter required)", "teleport for you", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1544.90442, 20.0685215, -488.332642, 0.988997817, 2.58207713e-08, 0.147930145, -3.02027061e-08, 1, 2.73753411e-08, -0.147930145, -3.15420436e-08, 0.988997817)
     end)
 
