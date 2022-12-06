@@ -21,7 +21,7 @@ local MainSection = Main:NewSection("Choose game")
     end)
     
     MainSection:NewButton("Legends of speed", "Legends", function()
-        loadstring(game:HttpGet("https://github.com/ni7kobv/nihub/blob/main/game/Legends%20of%20Speed"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Legends%20of%20Speed"))()
     end)
 
     local Other = Window:NewTab("Misc")
