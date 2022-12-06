@@ -1,34 +1,24 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("nihub", "DarkTheme")
+if game.PlaceId == 3101667897 then
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Legends%20of%20Speed'),true))()   
+end
 
-local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Choose game")
+if game.PlaceId == 662417684 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/lucky%20block", true))() 
+end
 
-    MainSection:NewButton("Daptoper Game", "Daptoper!", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
-    end)
+if game.PlaceId == 155615604 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Prison%20life"))()
+end
 
-    MainSection:NewButton("Every Second You Get +1 Jump Power", "Every", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Every%20Second%20You%20Get%20%2B1%20Jump%20Powere"))()
-    end)
+if game.PlaceId == 11063612131 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Every%20Second%20You%20Get%20%2B1%20Jump%20Powere"))()
+end
 
-    MainSection:NewButton("Lucky Block", "Block", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/lucky%20block"))()
-    end)
-    
-    MainSection:NewButton("Prison life", "Prsion", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Prison%20life"))()
-    end)
-    
-    MainSection:NewButton("Legends of speed", "Legends", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Legends%20of%20Speed"))()
-    end)
-
-    local Other = Window:NewTab("Misc")
-    local OtherSection = Other:NewSection("Misc")
-
-    OtherSection:NewButton("discord link", "copy discord link", function()
-               game.StarterGui:SetCore("SendNotification", {
+if game.PlaceId == 11234434199 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
+end
+               
+         game.StarterGui:SetCore("SendNotification", {
         Title = 'Discord';
         Text = 'discord link copied in your keyboard!';
         Duration = 1;
