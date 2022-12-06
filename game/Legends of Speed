@@ -2119,15 +2119,15 @@ local MainSection = Main:NewSection("Teleport")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-835.946899, 14.974474, 123.419525, 0.199229926, 3.51698297e-08, 0.979952753, 9.6269325e-08, 1, -5.54614061e-08, -0.979952753, 1.05388963e-07, 0.199229926)
     end)
 
-    MainSection:NewButton("Auto Win", "teleport for you", function()
+    MainSection:NewButton("Auto Win Parkour Challenge", "teleport for you", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1544.90442, 20.0685215, -488.332642, 0.988997817, 2.58207713e-08, 0.147930145, -3.02027061e-08, 1, 2.73753411e-08, -0.147930145, -3.15420436e-08, 0.988997817)
     end)
 
-    MainSection:NewButton("Teleport to Mysterious Cave (lvl 25)", "teleport for you", function()
+    MainSection:NewButton("Teleport to Frost Course (lvl 15)", "teleport for you", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(370.272308, 4.1768918, -21.7798862, -0.736848831, -2.45749625e-08, -0.676057518, -6.91006719e-09, 1, -2.88189774e-08, 0.676057518, -1.65636269e-08, -0.736848831)
     end)
 
-    MainSection:NewButton("Auto Win", "teleport for you", function()
+    MainSection:NewButton("Auto Win (Tap Frost Course and enter required)", "teleport for you", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2229.90503, 305.133392, 1073.33093, 0.655965805, -3.83280927e-08, 0.754790604, 3.08128456e-08, 1, 2.40012508e-08, -0.754790604, 7.51324603e-09, 0.655965805)
     end)
 
@@ -2135,7 +2135,7 @@ local MainSection = Main:NewSection("Teleport")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-336.321991, 73.0768127, -253.177628, 0.999962986, -7.45280389e-08, -0.00860711653, 7.42593826e-08, 1, -3.15326965e-08, 0.00860711653, 3.08923696e-08, 0.999962986)
     end)
 
-    MainSection:NewButton("Auto Win", "teleport for you", function()
+    MainSection:NewButton("Auto Win (Tap Parkour Challenge and enter required)", "teleport for you", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2484.76074, 20.0685215, -2063.72827, 0.0175730195, -1.17143479e-07, -0.999845564, -5.45030598e-09, 1, -1.17257365e-07, 0.999845564, 7.51002993e-09, 0.0175730195)
     end)
 
@@ -2149,7 +2149,7 @@ local MainSection = Main:NewSection("Snow City")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-924.840881, 26.57868, 2822.99536, -0.713311672, -4.08110346e-08, 0.70084697, 2.57555097e-08, 1, 8.44446006e-08, -0.70084697, 7.82859857e-08, -0.713311672)
     end)
 
-    MainSection:NewButton("Auto Finish", "teleport for you", function()
+    MainSection:NewButton("Auto Finish (Tap Pirate and enter required)", "teleport for you", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1611.39258, 101.75795, 5667.33301, -0.999845207, 7.71613102e-08, -0.0175933875, 7.76402516e-08, 1, -2.65397233e-08, 0.0175933875, -2.79015708e-08, -0.999845207
 )
     end)
