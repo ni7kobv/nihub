@@ -1345,7 +1345,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {Title = "info", Text 
         game.Players.LocalPlayer.Character.Humanoid.Health=0
         wait(0.5)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
         wait(0.5)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
@@ -1355,17 +1355,17 @@ game:GetService("StarterGui"):SetCore("SendNotification", {Title = "info", Text 
         game.Players.LocalPlayer.Character.Humanoid.Health=0
         wait(0.5)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(1)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
         wait(0.5)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
-        game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1)
     end)
 
     MainSection:NewButton("Auto Rebirth", "auto Rebirth", function()
