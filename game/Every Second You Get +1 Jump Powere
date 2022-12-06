@@ -1328,6 +1328,45 @@ local MainSection = Main:NewSection("Main")
     MainSection:NewButton("Auto Win ( not spam )", "auto win for you!", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/auto%20win%20ns"))()
     end)
+    
+    MainSection:NewButton("Force Stop (use this only if reset not work)", "...", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "info", Text = "its gonna take somes times"})
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+        game.Players.LocalPlayer.Character.Humanoid.Health=0
+        wait(0.5)
+    end)
 
     MainSection:NewButton("Auto Rebirth", "auto Rebirth", function()
 while wait() do
