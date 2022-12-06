@@ -17,11 +17,4 @@ end
 if game.PlaceId == 11234434199 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
 end
-               
-         game.StarterGui:SetCore("SendNotification", {
-        Title = 'Discord';
-        Text = 'discord link copied in your keyboard!';
-        Duration = 1;
-       })
-       setclipboard('https://discord.gg/ah7nGsWCbU')
-    end)
+              
