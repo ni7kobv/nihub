@@ -1333,17 +1333,17 @@ local MainSection = Main:NewSection("Main")
 
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "info", Text = "if its button not working spam this button"})
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1.2)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1.2)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1.2)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1.2)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1.2)
         game.Players.LocalPlayer.Character.Humanoid.Health=0
-        wait(0.5)
+        wait(1.2)
     end)
 
     MainSection:NewButton("Auto Rebirth", "auto Rebirth", function()
