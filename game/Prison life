@@ -1203,7 +1203,7 @@
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("nihub 1.0.1", "DarkTheme")
+local Window = Library.CreateLib("nihub v1.0.2", "DarkTheme")
 
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
