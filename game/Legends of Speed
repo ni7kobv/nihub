@@ -2172,6 +2172,11 @@ OtherSection:NewKeybind("Keybind", "Keybind", Enum.KeyCode.RightControl, functio
 	Library:ToggleUI()
 end)
 
+    OtherSection:NewButton("Rejoin", "rejoin for you", function()
+local teleportservice = game:GetService("TeleportService")
+teleportservice:Teleport(game.PlaceId)
+    end)
+
     OtherSection:NewButton("discord link", "copy discord link", function()
                game.StarterGui:SetCore("SendNotification", {
         Title = 'Discord';
