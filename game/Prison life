@@ -1290,6 +1290,12 @@ end)
 
     local Other = Window:NewTab("Misc")
     local OtherSection = Other:NewSection("Misc")
+    
+OtherSection:NewKeybind("Keybind", "Keybind", Enum.KeyCode.RightControl, function()
+	Library:ToggleUI()
+end)
+
+    
 
     OtherSection:NewButton("discord link", "copy discord link", function()
                game.StarterGui:SetCore("SendNotification", {
