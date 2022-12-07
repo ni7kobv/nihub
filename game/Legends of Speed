@@ -2180,4 +2180,6 @@ end)
        })
        setclipboard('https://discord.gg/ah7nGsWCbU')
     end)
+    
+    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Open/Close", Text = "RightControl to Open/Close"})
 
