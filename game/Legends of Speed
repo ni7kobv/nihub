@@ -2168,6 +2168,11 @@ local MainSection = Main:NewSection("Electro Cave")
     local Other = Window:NewTab("Misc")
     local OtherSection = Other:NewSection("Misc")
 
+    OtherSection:NewButton("ctrl+click tp", "teleport for you", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/ctrl%20click%20tp"))()
+    end)
+
+
     OtherSection:NewButton("discord link", "copy discord link", function()
                game.StarterGui:SetCore("SendNotification", {
         Title = 'Discord';
