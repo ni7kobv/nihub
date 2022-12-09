@@ -1,4 +1,62 @@
-if game.PlaceId == 3101667897 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "nihub key system", HidePremium = false, SaveConfig = true,IntroText = "nihub", ConfigFolder = "nihub"})
+
+getgenv().Key = "ni7kobvthegod"
+getgenv().Key = "c5by6mwc"
+getgenv().Key = "b5yBYcer"
+getgenv().Key = "5ynbVTwe"
+getgenv().Key = "$B^4ccxq"
+getgenv().Key = "ni76vv6v"
+getgenv().Key = "b3qxrzqz"
+getgenv().Key = "x3buy6m6" --useless line i think you can remove it
+getgenv().KeyInput = "string"
+
+
+local Key = Window:MakeTab({
+    Name = "Key",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = Key:AddSection({
+    Name = "Key System"
+})
+
+Key:AddButton({
+	Name = "copie discord link for key",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ni7kobv/nihub/main/Discord%20Link%20e'))()
+  	end    
+})
+
+Key:AddTextbox({
+    Name = "Enter Key",
+    Default = "",
+    TextDisappear = false,
+    Callback = function(Value)
+        getgenv().KeyInput = Value
+    end      
+})
+
+local keys = {
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+
+}
+
+Key:AddButton({
+    Name = "Check Key",
+    Callback = function()
+        if table.find(keys, tostring(getgenv().KeyInput)) then
+            --script
+        else
+            if game.PlaceId == 3101667897 then
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Legends%20of%20Speed'),true))()   
 end
 
@@ -17,4 +75,7 @@ end
 if game.PlaceId == 11234434199 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
 end
-              
+        end
+    end
+})
+
