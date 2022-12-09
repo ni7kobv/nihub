@@ -1198,21 +1198,6 @@
 
 
 
-if NIHUB and not _G.NIHUB_DEBUG == true then
-	-- error("nihub is already running!",0)
-	return
-end
-
-pcall(function() getgenv().NIHUB = true end)
-
-COREGUI = game:GetService("CoreGui")
-if not game:IsLoaded() then
-	local notLoaded = Instance.new("Message")
-	notLoaded.Parent = COREGUI
-	notLoaded.Text = 'NIHUB is waiting for the game to load'
-	game.Loaded:Wait()
-	notLoaded:Destroy()
-end
 
 
 
