@@ -1313,21 +1313,6 @@
 
 
 
-if NIHUB and not _G.IY_DEBUG == true then
-	-- error("nihub is already running!",0)
-	return
-end
-
-pcall(function() getgenv().NIHUB = true end)
-
-COREGUI = game:GetService("CoreGui")
-if not game:IsLoaded() then
-	local notLoaded = Instance.new("Message")
-	notLoaded.Parent = COREGUI
-	notLoaded.Text = 'NIHUB is waiting for the game to load'
-	game.Loaded:Wait()
-	notLoaded:Destroy()
-end
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("nihub v1.0.8", "DarkTheme")
