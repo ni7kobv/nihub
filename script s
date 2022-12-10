@@ -39,25 +39,25 @@ Key:AddTextbox({
 })
 
 local keys = {
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-
+    "x3buy6m6",
+    "b3qxrzqz",
+    "ni76vv6v",
+    "$B^4ccxq",
+    "5ynbVTwe",
+    "b5yBYcer",
+    "c5by6mwc",
+    "ni7kobvthegod",
 }
 
 Key:AddButton({
     Name = "Check Key",
     Callback = function()
         if table.find(keys, tostring(getgenv().KeyInput)) then
-            --script
-        else
-            if game.PlaceId == 3101667897 then
- loadstring(game:HttpGet(('https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Legends%20of%20Speed'),true))()   
+
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text = "Key Correct!"})
+
+if game.PlaceId == 3101667897 then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Legends%20of%20Speed'),true))()   
 end
 
 if game.PlaceId == 662417684 then
@@ -75,6 +75,8 @@ end
 if game.PlaceId == 11234434199 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
 end
+        else
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text = "Key incorrect!"})
         end
     end
 })
