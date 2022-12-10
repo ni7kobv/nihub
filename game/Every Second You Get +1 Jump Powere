@@ -1321,7 +1321,7 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
     MainSection:NewButton("Auto Win (reset for stop auto win)", "auto win for you!", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/auto%20win"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/auto%20wins"))()
     end)
     
     MainSection:NewButton("Auto Win ( not spam )", "auto win for you!", function()
