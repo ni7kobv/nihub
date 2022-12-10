@@ -192,6 +192,7 @@ local keys = {
     "m)3c!#hJ",
     "nh^Y5hcv",
     "yV)VQukN",
+    "CorsenOnTop",
 }
 
 Key:AddButton({
