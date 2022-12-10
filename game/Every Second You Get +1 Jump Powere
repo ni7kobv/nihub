@@ -1315,7 +1315,7 @@
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("nihub v1.0.9", "DarkTheme")
+local Window = Library.CreateLib("nihub v1.1.0", "DarkTheme")
 
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
@@ -1473,6 +1473,21 @@ local args = {
 
 game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
 
+end)
+
+local MainSection = Main:NewSection("Dark World")
+
+    MainSection:NewButton("Buy Dark Egg", "egg", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12300.4268, -0.00197467208, -97.110939, -0.999947846, 5.7579399e-09, 0.0102129262, 5.3037188e-09, 1, -4.45022224e-08, -0.0102129262, -4.44457342e-08, -0.999947846)
+wait(0.2)
+local args = {
+    [1] = "Dark",
+    [2] = "Single"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
+
     end)
 
     local Player = Window:NewTab("Player")
@@ -1518,7 +1533,11 @@ game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(
     OtherSection:NewButton("teleport to snow", "teleporte to snow for you!", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/snow"))()
     end)
-
+    
+     OtherSection:NewButton("teleport to dark", "teleporte to snow for you!", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12316.7275, 0.298049569, -122.021599, -0.998609304, -1.88719191e-08, -0.0527204126, -1.57290607e-08, 1, -6.00286327e-08, 0.0527204126, -5.91159051e-08, -0.998609304)
+    end)
+    
     local Other = Window:NewTab("Misc")
     local OtherSection = Other:NewSection("Misc")
 
