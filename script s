@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "nihub key system", HidePremium = false, SaveConfig = true,IntroText = "nihub", ConfigFolder = "nihub"})
 
-getgenv().Key = "ni7kobvthegod" --useless line i think you can remove it
+getgenv().Key = "ni7kobvthegod"
 getgenv().KeyInput = "string"
 
 
