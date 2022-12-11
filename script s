@@ -1,3 +1,6 @@
+local placeId = game.PlaceId
+if game.PlaceId == 537413528 or placeId == 11234434199 or placeId == 11063612131 or placeId == 155615604 or placeId == 662417684 or placeId == 3101667897 then
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "nihub key system", HidePremium = false, SaveConfig = true,IntroText = "nihub", ConfigFolder = "nihub"})
 
@@ -232,3 +235,4 @@ game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text =
     end
 })
 
+end
