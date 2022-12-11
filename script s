@@ -221,6 +221,11 @@ end
 if game.PlaceId == 11234434199 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
 end
+
+if game.PlaceId == 537413528 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/build%20a%20boat%20for%20streasure"))()
+end
+
         else
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text = "Key incorrect!/expired"})
         end
