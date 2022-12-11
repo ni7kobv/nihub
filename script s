@@ -39,7 +39,7 @@ local keys = {
     "5ynbVTwe",
     "b5yBYcer",
     "c5by6mwc",
-    "ni7kobvthegod",
+    "nihubpremkey",
     "yxBYhkgb",
     "k@m4+j$U",
     "!dfck!UA",
@@ -222,7 +222,7 @@ if game.PlaceId == 11234434199 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
 end
         else
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text = "Key incorrect!"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text = "Key incorrect!/expired"})
         end
     end
 })
