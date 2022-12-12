@@ -1,4 +1,0 @@
-while wait() do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12314, 45653.2539, 209, 0, 0, -1, -1, 0, 0, 0, 1, 0)
-wait(0.2)
-end
