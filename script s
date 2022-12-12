@@ -2879,7 +2879,7 @@
 
 
 local placeId = game.PlaceId
-if game.PlaceId == 537413528 or placeId == 11234434199 or placeId == 11063612131 or placeId == 155615604 or placeId == 662417684 or placeId == 3101667897 then
+if game.PlaceId == 537413528 or placeId == 11234434199 or placeId == 11063612131 or placeId == 155615604 or placeId == 662417684 or placeId == 3101667897 or placeId == 6679968919 then
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "nihub key system", HidePremium = false, SaveConfig = true,IntroText = "nihub", ConfigFolder = "nihub"})
@@ -3109,6 +3109,11 @@ end
 if game.PlaceId == 537413528 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/build%20a%20boat%20for%20streasure"))()
 end
+
+if game.PlaceId == 6679968919 then
+https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Fly%20Race
+end
+
 
         else
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text = "Key incorrect!/expired"})
