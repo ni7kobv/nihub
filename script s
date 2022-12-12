@@ -3099,7 +3099,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/ga
 end
 
 if game.PlaceId == 11063612131 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Every%20Second%20You%20Get%20%2B1%20Jump%20Poweres"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Every%20Second%20You%20Get%20%2B1%20Jump%20Powere"))()
 end
 
 if game.PlaceId == 11234434199 then
