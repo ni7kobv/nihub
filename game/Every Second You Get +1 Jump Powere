@@ -1321,11 +1321,21 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
     MainSection:NewButton("Auto Win (reset for stop auto win)", "auto win for you!", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/auto%20winz"))()
+
+while wait() do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12314, 45653.2539, 209, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
+end
     end)
     
     MainSection:NewButton("Auto Win ( not spam )", "auto win for you!", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/auto%20win%20n"))()
+
+while wait() do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12314, 45653.2539, 209, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
+wait(12)
+end
+
     end)
     
     MainSection:NewButton("Force Stop (use this only if reset not work)", "...", function()
