@@ -3111,7 +3111,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/ga
 end
 
 if game.PlaceId == 6679968919 then
-https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Fly%20Race
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Fly%20Race"))()
 end
 
 
