@@ -1,0 +1,114 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("nihub v1.0.1", "DarkTheme")
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+getgenv().autostud = true
+getgenv().autolaps = true
+
+MainSection:NewToggle("auto laps", "auto laps", function(state)
+    if state then
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(235.836014, 35.8945541, -836.438965, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(2)
+
+        while wait() do
+
+if not getgenv().autolaps then break end
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(149781.141, 482.920654, -831.919922, 0.027182918, -9.29056228e-08, -0.999630451, 2.62156519e-09, 1, -9.28686816e-08, 0.999630451, -9.61545357e-11, 0.027182918)
+wait(0.2)
+
+local teleport_table = {
+    location1 = Vector3.new(150383.578, -3.85999489, -836.438965, 0, 0, -1, 0, 1, 0, 1, 0, 0), -- your desired position
+  -- your desired position
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+        -- a.Completed:Wait()
+        -- print('Teleporting Done!')
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+wait(1.3)
+
+end
+    else
+        getgenv().autolaps = false
+    end
+end)
+
+MainSection:NewToggle("auto studs", "auto studs", function(state)
+    if state then
+        while wait() do
+if not getgenv().autostud then break end
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(235.836014, 35.8945541, -836.438965, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(149781.141, 482.920654, -831.919922, 0.027182918, -9.29056228e-08, -0.999630451, 2.62156519e-09, 1, -9.28686816e-08, 0.999630451, -9.61545357e-11, 0.027182918)
+wait(0.2)
+
+local teleport_table = {
+    location1 = Vector3.new(150286.875, -0.852986217, -836.691345, 0.0184423644, -7.34946681e-08, -0.999829948, -9.48694678e-10, 1, -7.35246672e-08, 0.999829948, 2.30450192e-09, 0.0184423644), -- your desired position
+  -- your desired position
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+        -- a.Completed:Wait()
+        -- print('Teleporting Done!')
+    end
+end
+
+bypass_teleport(teleport_table.location1)
+wait(1.3)
+
+end
+    else
+        getgenv().autostud = false
+    end
+end)
+
+    local Other = Window:NewTab("Misc")
+    local OtherSection = Other:NewSection("Misc")
+
+OtherSection:NewKeybind("Keybind", "Keybind", Enum.KeyCode.RightControl, function()
+	Library:ToggleUI()
+end)
+
+    OtherSection:NewButton("Rejoin", "rejoin for you", function()
+local teleportservice = game:GetService("TeleportService")
+teleportservice:Teleport(game.PlaceId)
+    end)
+    
+
+    OtherSection:NewButton("discord link", "copy discord link", function()
+               game.StarterGui:SetCore("SendNotification", {
+        Title = 'Discord';
+        Text = 'discord link copied in your keyboard!';
+        Duration = 1;
+       })
+       setclipboard('https://discord.gg/ah7nGsWCbU')
+    end)
+    
+    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Open/Close", Text = "RightControl to Open/Close"})
