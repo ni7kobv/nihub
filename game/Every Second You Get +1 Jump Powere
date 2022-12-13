@@ -1315,7 +1315,7 @@
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("nihub v1.1.0", "DarkTheme")
+local Window = Library.CreateLib("nihub v1.1.1", "DarkTheme")
 
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
@@ -1336,6 +1336,14 @@ wait(0.2)
 wait(12)
 end
 
+    end)
+    
+        MainSection:NewButton("secret base", "secret base", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(147.202744, 0.298024774, -123.983658, 0.474676311, -1.75264212e-08, -0.880160451, -4.39808794e-08, 1, -4.36319354e-08, 0.880160451, 5.9421275e-08, 0.474676311)
+    end)
+    
+       MainSection:NewButton("auto finish secret base", "secret base", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(17.0961304, -114.21283, 98.8041229, 0, 0, -1, -1, 0, 0, 0, 1, 0)
     end)
     
     MainSection:NewButton("Force Stop (use this only if reset not work)", "...", function()
