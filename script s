@@ -3077,6 +3077,7 @@ local keys = {
     "nh^Y5hcv",
     "yV)VQukN",
     "CorsenOnTop",
+    "password123",
 }
 
 Key:AddButton({
