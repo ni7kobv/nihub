@@ -2879,7 +2879,7 @@
 
 
 local placeId = game.PlaceId
-if game.PlaceId == 537413528 or placeId == 11234434199 or placeId == 11063612131 or placeId == 155615604 or placeId == 662417684 or placeId == 3101667897 or placeId == 6679968919 then
+if game.PlaceId == 537413528 or placeId == 11234434199 or placeId == 11063612131 or placeId == 155615604 or placeId == 662417684 or placeId == 3101667897 or placeId == 6679968919 or placeId == 3276265788 then
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "nihub key system", HidePremium = false, SaveConfig = true,IntroText = "nihub", ConfigFolder = "nihub"})
@@ -3086,7 +3086,7 @@ Key:AddButton({
 
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text = "Key Correct!"})
 
-if game.PlaceId == 3101667897 then
+if game.PlaceId == 3101667897 or placeId == 3276265788 then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Legends%20of%20Speed'),true))()   
 end
 
