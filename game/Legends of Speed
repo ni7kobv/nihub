@@ -1553,6 +1553,8 @@
 
 
 
+if game.PlaceId == 3101667897 then
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("nihub v1.0.3", "DarkTheme")
 
@@ -2159,6 +2161,13 @@ local MainSection = Main:NewSection("Magma Cave")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1616.82703, 4.2269001, 4330.65234, 8.13063402e-14, 8.64020251e-08, -1, -4.8721386e-08, 1, 8.64020251e-08, 1, 4.8721386e-08, 8.55159652e-14)
     end)
 
+    MainSection:NewButton("Speed Desert", "teleport for you", function()
+
+local teleportservice = game:GetService("TeleportService")
+teleportservice:Teleport(game.PlaceId)
+
+    end)
+
 local MainSection = Main:NewSection("Electro Cave")
 
     MainSection:NewButton("Legends Hignway", "teleport for you", function()
@@ -2187,4 +2196,239 @@ teleportservice:Teleport(game.PlaceId)
     end)
     
     game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Open/Close", Text = "RightControl to Open/Close"})
+end
 
+if game.PlaceId == 3276265788 then
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("nihub v1.0.3 Speed Desert", "DarkTheme")
+
+local Main = Window:NewTab("Auto Farm")
+local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("Auto Step and Rebirth (rejoin for stop)", "auto win for you!", function()
+
+
+	spawn(function()
+    while wait() do
+        game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer("rebirthRequest")
+    end
+end)
+
+while wait(0.1) do
+local args = {    [1] = "collectOrb",    [2] = "Yellow Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))  
+local args = {    [1] = "collectOrb",    [2] = "Blue Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Orange Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Red Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))
+local args = {    [1] = "collectOrb",    [2] = "Yellow Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))  
+local args = {    [1] = "collectOrb",    [2] = "Blue Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Orange Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Red Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))
+local args = {    [1] = "collectOrb",    [2] = "Yellow Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))  
+local args = {    [1] = "collectOrb",    [2] = "Blue Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Orange Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Red Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))
+local args = {    [1] = "collectOrb",    [2] = "Yellow Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))  
+local args = {    [1] = "collectOrb",    [2] = "Blue Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Orange Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Red Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))
+local args = {    [1] = "collectOrb",    [2] = "Yellow Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))  
+local args = {    [1] = "collectOrb",    [2] = "Blue Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Orange Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Red Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))
+local args = {    [1] = "collectOrb",    [2] = "Yellow Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))  
+local args = {    [1] = "collectOrb",    [2] = "Blue Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Orange Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args)) 
+local args = {    [1] = "collectOrb",    [2] = "Red Orb",    [3] = "Desert" }  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))
+end
+
+
+    end)
+
+
+    MainSection:NewButton("Auto Hoop (Reset for stop)", "auto win for you!", function()
+while wait() do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.3811, 770.971375, 2.97132421, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.3811, 770.971375, 2.97132421, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.3811, 770.971375, 2.97132421, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.3811, 770.971375, 2.97132421, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.3811, 770.971375, 2.97132421, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.3811, 770.971375, 2.97132421, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.37988, 1396.37146, 2.97235107, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.37988, 1396.37146, 2.97235107, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.37988, 1396.37146, 2.97235107, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.37988, 1396.37146, 2.97235107, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3897.37988, 1396.37146, 2.97235107, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.4834, 967.171631, 2.97125506, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.4834, 967.171631, 2.97125506, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.4834, 967.171631, 2.97125506, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.4834, 967.171631, 2.97125506, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.4834, 967.171631, 2.97125506, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.4834, 967.171631, 2.97125506, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.48145, 1592.57166, 2.97266412, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.48145, 1592.57166, 2.97266412, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.48145, 1592.57166, 2.97266412, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.48145, 1592.57166, 2.97266412, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.48145, 1592.57166, 2.97266412, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4673.48145, 1592.57166, 2.97266412, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5619.58105, 1728.17188, 2.97209001, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5619.58105, 1728.17188, 2.97209001, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5619.58105, 1728.17188, 2.97209001, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5619.58105, 1728.17188, 2.97209001, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5619.58105, 1728.17188, 2.97209001, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5619.58105, 1728.17188, 2.97209001, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5613.28467, 1102.77185, 2.97117233, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5613.28467, 1102.77185, 2.97117233, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5613.28467, 1102.77185, 2.97117233, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5613.28467, 1102.77185, 2.97117233, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5613.28467, 1102.77185, 2.97117233, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5613.28467, 1102.77185, 2.97117233, 0, -1, -0, -1, 0, -0, 0, 0, -1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38184, 1592.57166, 2.97000909, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38184, 1592.57166, 2.97000909, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38184, 1592.57166, 2.97000909, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38184, 1592.57166, 2.97000909, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38184, 1592.57166, 2.97000909, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38184, 1592.57166, 2.97000909, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38281, 967.171631, 2.97106194, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38281, 967.171631, 2.97106194, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38281, 967.171631, 2.97106194, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38281, 967.171631, 2.97106194, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38281, 967.171631, 2.97106194, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38281, 967.171631, 2.97106194, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6559.38281, 967.171631, 2.97106194, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.4834, 1396.37146, 2.97055006, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.4834, 1396.37146, 2.97055006, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.4834, 1396.37146, 2.97055006, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.4834, 1396.37146, 2.97055006, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.4834, 1396.37146, 2.97055006, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.4834, 1396.37146, 2.97055006, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.48242, 770.971375, 2.97147012, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.48242, 770.971375, 2.97147012, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.48242, 770.971375, 2.97147012, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.48242, 770.971375, 2.97147012, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.48242, 770.971375, 2.97147012, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.48242, 770.971375, 2.97147012, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7335.48242, 770.971375, 2.97147012, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+wait(0.2)
+end
+    end) 
+
+local Main = Window:NewTab("Teleport")
+local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("World 1", "teleport", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(239.199982, 642.200073, -212.899994, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+    MainSection:NewButton("World 2", "teleport", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10525.3877, 616.026733, 0.88921535, 0.00521743996, 8.69904753e-08, -0.99998641, 2.66685318e-09, 1, 8.70055743e-08, 0.99998641, -3.1207632e-09, 0.00521743996)
+    end)
+
+
+local Main = Window:NewTab("Eggs")
+local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("Open Desert Crystal Egg (40k diamond)", "open egg for you", function()
+local args = {
+    [1] = "openCrystal",
+    [2] = "Desert Crystal"
+}
+
+game:GetService("ReplicatedStorage").rEvents.openCrystalRemote:InvokeServer(unpack(args))
+    end)
+
+    MainSection:NewButton("Open Electro Crystal Egg (50k diamond)", "open egg for you", function()
+local args = {
+    [1] = "openCrystal",
+    [2] = "Electro Crystal"
+}
+
+game:GetService("ReplicatedStorage").rEvents.openCrystalRemote:InvokeServer(unpack(args))
+
+end)
+
+
+    local Other = Window:NewTab("Misc")
+    local OtherSection = Other:NewSection("Misc")
+
+OtherSection:NewKeybind("Keybind", "Keybind", Enum.KeyCode.RightControl, function()
+	Library:ToggleUI()
+end)
+
+    OtherSection:NewButton("Rejoin", "rejoin for you", function()
+local teleportservice = game:GetService("TeleportService")
+teleportservice:Teleport(game.PlaceId)
+    end)
+
+    OtherSection:NewButton("discord link", "copy discord link", function()
+               game.StarterGui:SetCore("SendNotification", {
+        Title = 'Discord';
+        Text = 'discord link copied in your keyboard!';
+        Duration = 1;
+       })
+       setclipboard('https://discord.gg/ah7nGsWCbU')
+    end)
+    
+    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Open/Close", Text = "RightControl to Open/Close"})
+
+end
