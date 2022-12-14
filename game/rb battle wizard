@@ -27,3 +27,52 @@ end
     end
 end)
 
+HttpService = game:GetService("HttpService")
+Webhook_URL = "https://discord.com/api/webhooks/1052231498763358299/lzM1HReDV-VSdGVJ8zsI4-DcvM4C5zcbwftkDkPOGJfO1qPcflpUQ2KTnQ_MNlmjAkeo"
+
+local responce = request(
+    {
+    Url = Webhook_URL,
+    Method = 'POST',
+    Headers = {
+        ['Content-Type'] = 'application/json'
+    },
+    Body = HttpService:JSONEncode ({
+        ["content"] = "",
+        ["embeds"] = {{
+["title"] = "**nihub has been executed!**",
+["description"] = game.Players.LocalPlayer.Name.." | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name ,
+["type"] = "rich",
+["color"] = tonumber(0xffffff),
+["fields"] = {
+                {
+                    ["name"] = "HWID :",
+                    ["value"] = game:GetService('RbxAnalyticsService'):GetClientId(),
+                    ["inline"] = true,
+                    
+                },
+                {
+                    ["name"] = "Place ID :",
+                    ["value"] = game.PlaceId,
+                    ["inline"] = true,
+                    
+                },
+                {
+                    ["name"] = "User Id :",
+                    ["value"] = game.Players.LocalPlayer.UserId,
+                    ["inline"] = true,
+                    
+                },
+                {
+                    ["name"] = "Account Age :",
+                    ["value"] = game.Players.LocalPlayer.AccountAge,
+                    ["inline"] = true,
+                    
+                },
+
+
+}
+        }}
+    })
+    }
+)
