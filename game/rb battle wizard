@@ -7,7 +7,7 @@ local MainSection = Main:NewSection("Main")
 getgenv().autofarm = true
 
 
-MainSection:NewToggle("Auto Win", "lol", function(state)
+MainSection:NewToggle("Auto Win (join rb battle portal require)", "lol", function(state)
     if state then
 while wait() do
 if not getgenv().autofarm then break end
