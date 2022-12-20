@@ -1556,7 +1556,7 @@
 	if game.PlaceId == 3101667897 then
 
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-	local Window = Library.CreateLib("nihub v1.0.3", "DarkTheme")
+	local Window = Library.CreateLib("nihub v1.0.4", "DarkTheme")
 
 	local Main = Window:NewTab("Auto Farm")
 	local MainSection = Main:NewSection("Main")
@@ -2206,7 +2206,7 @@
 	if game.PlaceId == 3276265788 then
 
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-	local Window = Library.CreateLib("nihub v1.0.3 Speed Desert", "DarkTheme")
+	local Window = Library.CreateLib("nihub v1.0.4 Speed Desert", "DarkTheme")
 
 	local Main = Window:NewTab("Auto Farm")
 	local MainSection = Main:NewSection("Main")
@@ -2443,7 +2443,7 @@
 	if game.PlaceId == 3232996272 then
 
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-	local Window = Library.CreateLib("nihub v1.0.3 Outer Space", "DarkTheme")
+	local Window = Library.CreateLib("nihub v1.0.4 Outer Space", "DarkTheme")
 
 	local Main = Window:NewTab("Auto Farm")
 	local MainSection = Main:NewSection("Main")
