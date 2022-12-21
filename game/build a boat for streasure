@@ -1531,6 +1531,10 @@ end
     end
 end)
 
+    MainSection:NewButton("ctrl+click tp", "teleport for you", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/scripts/ctrl%20click%20tp"))()
+    end)
+
     local Other = Window:NewTab("Teleport")
     local OtherSection = Other:NewSection("Teleport")
 
