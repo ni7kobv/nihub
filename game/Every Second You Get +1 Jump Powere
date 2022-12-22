@@ -1331,6 +1331,12 @@ end
         MainSection:NewButton("Auto Win all tower (patched)", "auto win for you!", function()
 
 while wait() do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(380.439178, 8979.04688, -44.4125099, 0, 0, 1, -1, 0, 0, 0, -1, 0)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-230.500015, 2533.1438, -12.5000038, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1, 1868.94995, 130, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2049, 6205.05029, 146, 0, 0, -1, -1, 0, 0, 0, 1, 0)
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4049, 8734.84961, 152, 0, 0, -1, -1, 0, 0, 0, 1, 0)
