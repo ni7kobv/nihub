@@ -2915,6 +2915,7 @@ Key:AddTextbox({
 })
 
 local keys = {
+    "aaee",
     "botdownkey",
     "x3buy6m6",
     "b3qxrzqz",
