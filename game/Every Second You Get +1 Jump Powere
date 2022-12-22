@@ -1328,6 +1328,24 @@ wait(0.2)
 end
     end)
     
+        MainSection:NewButton("Auto Win all tower (patched)", "auto win for you!", function()
+
+while wait() do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2049, 6205.05029, 146, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4049, 8734.84961, 152, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6049, 13429.8496, 162, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8049, 19189.8516, 171, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10266, 27323.252, 185, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12314, 45653.2539, 212, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait(0.2)
+end
+    end)
+    
     MainSection:NewButton("Auto Win ( not spam )", "auto win for you!", function()
 
 while wait() do
