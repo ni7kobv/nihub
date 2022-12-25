@@ -1,0 +1,286 @@
+local player = game.Players.LocalPlayer
+
+if player.Name == "Natbfj" then
+
+
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "premium", Text = "you are premium ! loading..."})
+
+if game.PlaceId == 3101667897 or placeId == 3276265788 or placeId == 3232996272 then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Legends%20of%20Speed'),true))()   
+end
+
+if game.PlaceId == 662417684 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/lucky%20block", true))() 
+end
+
+if game.PlaceId == 155615604 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Prison%20life"))()
+end
+
+if game.PlaceId == 11063612131 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Every%20Second%20You%20Get%20%2B1%20Jump%20Powere"))()
+end
+
+if game.PlaceId == 11234434199 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
+end
+
+if game.PlaceId == 537413528 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/build%20a%20boat%20for%20streasure"))()
+end
+
+if game.PlaceId == 6679968919 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Fly%20Race"))()
+end
+
+    else   
+        print("want premium? join discord !")
+        
+local placeId = game.PlaceId
+if game.PlaceId == 537413528 or placeId == 11234434199 or placeId == 11063612131 or placeId == 155615604 or placeId == 662417684 or placeId == 3101667897 or placeId == 6679968919 or placeId == 3276265788 or placeId == 3232996272 then
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "nihub key system", HidePremium = false, SaveConfig = true,IntroText = "nihub", ConfigFolder = "nihub"})
+
+getgenv().Key = "ni7kobvthegod"
+getgenv().KeyInput = "string"
+
+
+local Key = Window:MakeTab({
+    Name = "Key",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = Key:AddSection({
+    Name = "Key System"
+})
+
+Key:AddButton({
+	Name = "copie discord link for key",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ni7kobv/nihub/main/Discord%20Link%20e'))()
+  	end    
+})
+
+Key:AddTextbox({
+    Name = "Enter Key",
+    Default = "",
+    TextDisappear = false,
+    Callback = function(Value)
+        getgenv().KeyInput = Value
+    end      
+})
+
+local keys = {
+    "botdownkey",
+    "x3buy6m6",
+    "b3qxrzqz",
+    "ni76vv6v",
+    "$B^4ccxq",
+    "5ynbVTwe",
+    "b5yBYcer",
+    "c5by6mwc",
+    "nihubpremkey",
+    "yxBYhkgb",
+    "k@m4+j$U",
+    "!dfck!UA",
+    "xNnALt)R",
+    "^!wxaUwr",
+    "s)&cwk3s",
+    "QjKIkW@M",
+    "Bf2A$Xn!",
+    "Jq8B()4T",
+    "Pyb@Zvge",
+    "#hF^JNTD",
+    "#+kPv6Ux",
+    "$L4npJDA",
+    "4Tmnc!%w",
+    "d8hW$3W$",
+    "^dhA)vY7",
+    "XMvVhM^5",
+    "rqVaz)6Q",
+    "P5WmT)GX",
+    ")RIUrp8c",
+    "QCCuAscb",
+    "cc5qRR@@",
+    "3cAY4KDV",
+    "3VE@XYtQ",
+    "@K3cps9X",
+    "BP8Gvy)q",
+    "DvmKjJGk",
+    "38zfQ8pv",
+    "2kLVM9nm",
+    "*3$hy9qh",
+    "CaHLbSG4",
+    "ZjGFKCHM",
+    "63#VXm3n",
+    "q7dgUsmI",
+    "yU!ppbn%",
+    "sqhEkLkn",
+    "4w4Vj!V5",
+    "!@CvuXm+",
+    "tQE($tyj",
+    "hmMYRW8P",
+    "UQ4aMfhm",
+    "m%B5Hqnf",
+    "PTFGI^Xd",
+    "^*usky!u",
+    "RYM+jVXP",
+    "NWkJMCp%",
+    "A9rJbQp4",
+    "a@uVT2Jq",
+    "+aEIvK)@",
+    "esuynL#%",
+    "zR7Hhsap",
+    "thPdA@x#",
+    "WGMwND5A",
+    "Y%L*HRBC",
+    "NrmG&Nu9",
+    "!&IUTVNu",
+    "ZRCrTgeb",
+    "!$A!F&C%",
+    "3+u9J2RL",
+    "^yf+IZnH",
+    "Gn)%ukbe",
+    "fr$WY@hy",
+    "NzAGyx)6",
+    "SAeaZv2S",
+    "aDdZf#PP",
+    "(%k)fzrD",
+    "Gt7H+#*m",
+    "U+64TD@W",
+    "wXfH+cHM",
+    "NAfdY@2u",
+    "5%3*DMPd",
+    "LSyZ)XrH",
+    "7n)RRXvr",
+    "8QYsHdfR",
+    "D7&4GdLq",
+    "3c249axR",
+    "mfnQNkx4",
+    "MqJr62df",
+    "&#eb%rr*",
+    "Pzd@#nIz",
+    "5ZQu($Iq",
+    "yh$DYw3r",
+    "*yjR%KnK",
+    "@^ZJWjMQ",
+    "hEE&ZUAM",
+    "vYCY8&s9",
+    "q$wMYh)&",
+    "SWQCH8!S",
+    "^p^u%%Ku",
+    "jJHD9RN*",
+    "7As)tK3r",
+    "5@vTB%X$",
+    "qngqSK9&",
+    "h6HQb&q^",
+    "JKMEwU&H",
+    "@UewBs39",
+    "!FYHHX*3",
+    "T&@5!X%J",
+    "JSfc6W%A",
+    "gg9&^ZDv",
+    "R@syH$va",
+    "trcJW^*v",
+    "u%ZvwUw3",
+    "U^PMj24f",
+    "wbU3uF)D",
+    ")AzZkjbx",
+    "G#47WAr!",
+    "pPnud)jz",
+    "ZQ&zu&d@",
+    "ShHnj^*t",
+    "H%45xgMS",
+    "Ba+qg95T",
+    "2+RCXrhd",
+    "C6zj+8HV",
+    "KG9b+mF6",
+    "JMb+HEf!",
+    "Az9VMbYn",
+    "sNqsr&n#",
+    "vCxuZcQW",
+    "%E)m(zSc",
+    "+P!vEM7h",
+    "qCtG4&YC",
+    "Q*%UPEDX",
+    "rrSRm*xZ",
+    "%Hr6VC7C",
+    "xUcv*b^P",
+    "3$vdQH!M",
+    "(#dE9cVL",
+    "f6^7bj2h",
+    "sYWm3q*t",
+    "IB6CdURT",
+    "vv!7^zWH",
+    "JL6Ch!qu",
+    "uSZtr)X$",
+    "VZz!peZc",
+    "WwyeuXQ8",
+    "(a$u+8EM",
+    "c6+49D9W",
+    "7KbFgsFS",
+    "#rdG9WeY",
+    "jCVsDQkF",
+    "m6x(3jV*",
+    "xLHk@#V^",
+    "PhGQgpc^",
+    ")7f)^R(8",
+    "xCD#xj@z",
+    "@upgAXAD",
+    "xCD#xj@z",
+    "bB$aRB*3",
+    "m)3c!#hJ",
+    "nh^Y5hcv",
+    "yV)VQukN",
+    "CorsenOnTop",
+    "password123",
+    "B9TMjHcC",
+}
+
+Key:AddButton({
+    Name = "Check Key",
+    Callback = function()
+        if table.find(keys, tostring(getgenv().KeyInput)) then
+
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text = "Key Correct!"})
+
+if game.PlaceId == 3101667897 or placeId == 3276265788 or placeId == 3232996272 then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Legends%20of%20Speed'),true))()   
+end
+
+if game.PlaceId == 662417684 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/lucky%20block", true))() 
+end
+
+if game.PlaceId == 155615604 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Prison%20life"))()
+end
+
+if game.PlaceId == 11063612131 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Every%20Second%20You%20Get%20%2B1%20Jump%20Powere"))()
+end
+
+if game.PlaceId == 11234434199 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Daptoper%20Game"))()
+end
+
+if game.PlaceId == 537413528 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/build%20a%20boat%20for%20streasure"))()
+end
+
+if game.PlaceId == 6679968919 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ni7kobv/nihub/main/game/Fly%20Race"))()
+end
+
+
+        else
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Key", Text = "Key incorrect!/expired"})
+        end
+    end
+})
+
+end
+end
+
