@@ -1,6 +1,6 @@
 local player = game.Players.LocalPlayer
 
-if player.Name == "Natbfj" then
+if player.Name == "oboy373" then
 
 
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "premium", Text = "you are premium ! loading..."})
