@@ -1,0 +1,11 @@
+while wait() do
+        if not getgenv().autoegg then break end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(16396.4727, -0.85209167, -97.6743774, -0.999565244, -2.3997643e-08, -0.0294843893, -2.43879015e-08, 1, 1.28764919e-08, 0.0294843893, 1.35899567e-08, -0.999565244)
+wait(0.2)
+local args = {
+    [1] = "Desert",
+    [2] = "Single"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
+    end
